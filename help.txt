@@ -1,0 +1,59 @@
+OPIS FUNKCIJA:
+
+    > mkdir putanja_do_mjesta_kreiranja_direktorijuma
+    Funkcija 'mkdir' kreira novi direktorijum na zadatoj putanji.
+    Kao argument prima putanju novog dirketorijuma.
+
+    > create putanja_do_mjesta_kreiranja_datoteke
+    Funkcija 'create' kreira novu datoteku na zadatoj putanji.
+    Kao argument prima putanju nove datoteke.
+
+    > put putanja_datoteke_na_Windows_fajl_sistemu putanja_za_smjestanje_datoteke
+    Funkcija 'put' omogucava "upload" sa postojeceg fajl sistema na novi fajl sistem.
+    Kao argumente prima putanju datoteke na Windows fajl sistemu i putanju lokacije gdje se skladisti.
+
+    > get putanja_datoteke putanja_za_smjestanje_na_Windows_fajl_sistem
+    Funkcija 'get' omogucava "download" datoteke sa sa novog fajl sistema na postojeci. Potrebno je naglasiti da prilikom navodjenja
+    putanje u Windows fajl sistemu obavezno putanju zavrsavati sa '\'.
+    Kao argumente prima putanju datoteke gdje se vec nalazi i putanju na Windows fajl sistemu gdje ce datoteka biti smjestena.
+
+    > ls putanja_do_direktorijuma
+    Funkcija 'ls' omogucava izlistavanje direktorijuma zadatog putanjom.
+    Kao argument prima putanju direktorijuma za izlistavanje.
+
+    > cp putanja_izvorisne_datotke putanja_za_skladistinje_kopije
+    Funkcija 'cp' kopira datoteku zadanu kao prvi argument u direktorijum koji je zadan drugim argumentom.
+    Kao argumente prima putanju datoteke za kopiranje i putanju lokaciju za skladistinje kopije.
+
+    > mv putanja_izvorisne_datotke putanja_za_skladistinje_datoteke
+    Funkcija 'mv' premjesta datoteku zadanu kao prvi argument u direktorijum koji je zadan drugim argumentom.
+    Kao argumente prima putanju datoteke za premjestanje i putanju lokacije za skladistenje.
+
+    > rename putanja_datoteke_ili_direktorijuma novi_naziv_datoteke_ili_direktorijuma
+    Funkcija 'rename' mijenja naziv datoteke ili direktorijuma zadani kao prvi argument u novi naziv zadan kao drugi argument.
+    Kao argumente prima putanju direktorijuma ili datoteka i novi nazov direktorijuma ili datoteke.
+
+    > echo putanja_datoteke_za_upis "proizvoljan tekst"
+    Funkcija 'echo' upisuje proizvoljno zadan tekst kao drugi argument funkcije. Pri tome je potrebno napomenuti da nije moguc
+    ponovni upis sadrzaja u datoteku ukoliko je to prethodno obavljeno.
+    Kao argumente prime putanju datoteke i proizvoljan tekst koji se nalazi pod navodnicima ".
+
+    > cat putanja_datoteke
+    Funkcija 'cat' ispisuje sadrzaj datoteke zadane kao prvi argument.
+    Kao argument prima putanju datoteke za iscitavanje.
+
+    > rm putanja_datoteke_za_brisanje
+    Funkcija 'rm' brise datoteku sa fajl sistema.
+    Kao argument prima putanju do datoteke.
+
+    > rmdir putanja_do_direktorijuma
+    Funkcija 'rmdir' brise direktorijum i sve datoteke u njemu.
+    Kao argument prima putnaju do direktorijuma.
+
+    > stat putanja_do_datoteke
+    Funkcija 'stat' ispisuje podatke o datoteci zadane kao argument.
+    Kao argument prima putanju do datoteke.
+
+    > dir _____
+    Funkcija 'dir' ispisuje stablo kompletnog fajl sistema.
+    Funkcija ne prima argumente.
